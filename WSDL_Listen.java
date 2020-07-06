@@ -82,6 +82,7 @@ public class WSDL_Listen implements PlugIn  {
 		gd.addStringField("Paste the web service URL provided to you: ","",30);
 		gd.addMessage("***Close this dialog to stop listing for web service changes (checking for images to read)***");
 		gd.addMessage("(images will be refreshed every 2 seconds)");
+		gd.setOKLabel("Close the WSDL Listen plugin");
 		// this listener monitors the web service URL field
 		final TextField wsurl = (TextField)gd.getStringFields().get(0);
         wsurl.addTextListener(new TextListener() {
