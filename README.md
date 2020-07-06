@@ -1,2 +1,2 @@
-# webServiceTesting
-This is a simple repo for testing web service output
+# WSDL_Listen.java
+This ImageJ plugin is useful for creating an image reading app for radiology or ultrasound image reading. The plugin simply 'listens' to changes in output from a web service that simply prints a list of URLs to images. The plugin will automatically load images from the web service. The source code for the plugin contains more information on the uses and instructions for installed in ImageJ.
