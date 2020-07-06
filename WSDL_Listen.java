@@ -100,6 +100,8 @@ public class WSDL_Listen implements PlugIn  {
 			timerTask.cancel();
 			IJ.showStatus("Stopped listening for web service changes");
 			//IJ.log("Stopped listening for web service changes");
+			WSDL_Listen.setCurrentLoadedImg("");	// we need to empty these 'globals' to empty strings because even when we close the plugin these values persist
+			WSDL_Listen.setWSUrl("");
 			WindowManager.closeAllWindows();
 			//System.exit(0);	// could use this if I simply want to close ImageJ
 		}
