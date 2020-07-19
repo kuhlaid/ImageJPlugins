@@ -32,8 +32,9 @@ import java.awt.event.TextEvent;
  * Start ImageJ and select the Plugins menu and choose the 'Compose and Run...' item in that menu.
  * A file explorer window will appear and you will need to navigate to the ImageJ/plugins folder and open the WSDL_Listen.java file you copied there.
  * This will run and install the plugin (create a WSDL_Listen.class file which is the compiled java script) and load a dialog box titled "WSDL_Listen Plugin".
- * At this point you can begin using the plugin, but if you close the WSDL_Listen dialog box and select the Help/Refresh Menus option in ImageJ, this will refresh the ImageJ menu. Now if you open the Plugins menu 'WSDL_Listen' is now accessible at the bottom of the Plugins menu.  
- * 
+ * Under the Help menu select the 'Refresh Menus' option. Now if you open the Plugins menu 'WSDL_Listen' is now accessible at the bottom of the Plugins menu.
+ * At this point you can begin using the plugin, but if you close the WSDL_Listen dialog box and select the Help/Refresh Menus option in ImageJ, this will refresh the ImageJ menu. 
+ *
  * @logic
  * This plugin loads a dialog box that prompts you to 'Paste the web service URL provided to you'. To test the plugin
  * copy this URL and paste it into the text field:
